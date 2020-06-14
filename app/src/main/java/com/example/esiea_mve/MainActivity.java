@@ -17,6 +17,7 @@ public class MainActivity extends BaseActivity implements MainInterface{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 //J'ajoute du code
+        showList();
         Button mainButton = findViewById(R.id.button2);
         mainButton.setBackgroundColor(Color.RED);
         mainButton.setOnClickListener(new View.OnClickListener() {
@@ -31,6 +32,10 @@ public class MainActivity extends BaseActivity implements MainInterface{
         Chat chat = new Chat( "toto", 2 );
         showBaseError();
 
+    }
+
+    private void showList() {
+        //TODO afficher liste
     }
 
 
