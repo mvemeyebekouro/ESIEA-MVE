@@ -16,7 +16,7 @@ public class MainActivity extends BaseActivity implements MainInterface{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+//J'ajoute du code
         Button mainButton = findViewById(R.id.button2);
         mainButton.setBackgroundColor(Color.RED);
         mainButton.setOnClickListener(new View.OnClickListener() {
